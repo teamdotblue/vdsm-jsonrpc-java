@@ -164,7 +164,7 @@
 
 	<profiles>
 		<profile>
-			<id>release-sign-artifacts</id>
+			<id>release-sign</id>
 			<activation>
 				<property>
 					<name>performRelease</name>
