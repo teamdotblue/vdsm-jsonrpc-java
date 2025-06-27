@@ -32,7 +32,7 @@ jobs:
     steps:
 
     - name: Checkout sources
-      uses: ovirt/checkout-action@main
+      uses: ovirt/checkout-action@mv4
 
     - name: Mark git repo as safe
       run: git config --global --add safe.directory $(pwd)
