@@ -25,7 +25,7 @@
 %global	package_version @PACKAGE_VERSION@
 %global	package_maven_version @PACKAGE_MAVEN_VERSION@
 
-%global	_java_jdk_home /usr/lib/jvm/java-11-openjdk
+%global	_java_jdk_home /usr/lib/jvm/java-21-openjdk
 %global	_mvn_opts -Pno-test
 
 Summary:	JsonRpc java client (%{name}) for oVirt
@@ -49,7 +49,7 @@ BuildRequires:	gcc
 BuildRequires:	jackson-annotations >= 2.10.0
 BuildRequires:	jackson-core >= 2.10.0
 BuildRequires:	jackson-databind >= 2.10.0
-BuildRequires:	java-11-openjdk-devel >= 11.0.4
+BuildRequires:	java-21-openjdk-devel >= 21.0.4
 BuildRequires:	javapackages-tools
 BuildRequires:	slf4j-jdk14 >= 1.7.0
 BuildRequires:	junit
@@ -94,7 +94,7 @@ Requires:	apache-commons-lang3 >= 3.7
 Requires:	jackson-annotations >= 2.9.0
 Requires:	jackson-core >= 2.9.0
 Requires:	jackson-databind >= 2.9.0
-Requires:	java-11-openjdk-headless >= 11.0.4
+Requires:	java-21-openjdk-headless >= 21.0.4
 Requires:	slf4j >= 1.7.0
 
 %description
