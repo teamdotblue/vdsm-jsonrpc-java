@@ -40,7 +40,7 @@ Group:		Development/Libraries
 # We need to disable automatic generation of "Requires: java-headless >=1:11"
 # by xmvn, because JDK 11 doesn't provide java-headless, but it
 # provides java-11-headless
-AutoReq:	no
+AutoReq:	yes
 
 BuildArch:	noarch
 
