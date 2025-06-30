@@ -39,9 +39,9 @@ jobs:
 
     - name: install forgotten dependecies
       run: |
-        sudo dnf install -y |
-          jackson-core |
-          jackson-databind |
+        sudo dnf install -y \
+          jackson-core \
+          jackson-databind \
           jackson-annotations
 
     - name: Perform build
